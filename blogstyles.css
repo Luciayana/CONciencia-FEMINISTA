@@ -62,6 +62,10 @@ nav{
       padding: 10px;
 }
 
+.tama{
+  width:40%;
+}
+
 .tamaño2{
   height: 400px;
   width: 300px;
@@ -102,4 +106,48 @@ p{
 
 .bajar2{
   margin-top: 120px;
+}
+
+.us{
+  background-color: white;
+  margin-right: 20px;
+}
+
+.imagenus{
+  margin-left: 30px;
+  margin-bottom: 100px;
+  border:white 7px solid;
+
+}
+.espacio{
+  padding: 15px;
+  }
+.fem{
+  float:left;
+  width:20%;
+  margin-right: 20px;
+  margin-top: 40px;
+align: center;
+}
+.femi{
+
+}
+
+.femimg{
+  width:120px;
+  height: 160px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.yo1{
+  margin-left:110px;
+  margin-bottom: 150px;
+}
+.p1{
+  margin-left: 60px;
+}
+.miboton{
+  background-color: #cca968;
+  border: 1px solid #dec8c8;
+  color:white;
 }
