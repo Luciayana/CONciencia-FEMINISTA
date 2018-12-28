@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Figuras:arte</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="blogstyles.css">
+  </head>
+
+
+  <body id="fondo">
+    <header>
+      <h1>CONciencia FEMINISTA</h1>
+      <h2> No se nace mujer, se llega a serlo</h2>
+      <h5 class="texto">-Simone de Beauvoir</h5>
+      <div id="clockdate">
+        <div class="clockdate-wrapper reloj">
+          <div id="clock"></div>
+          <div id="date"></div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg light quitarmargen">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto centrar">
+          <li class="nav-item active centrar2">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown centrar2">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Figuras
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Figurasciencia.html">Ciencia</a>
+              <a class="dropdown-item" href="Figurasarte.html">Arte</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Figuraslecturas.html">Recomendaciones de lectura</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown centrar2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Feminismo
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Unpocodefilosofia.html">Un poco de filosofía</a>
+              <a class="dropdown-item" href="Lecturas.html">Lecturas</a>
+            </div>
+          </li>
+          <li class="nav-item active centrar2">
+            <a class="nav-link" href="Movimientofeminista.html">Movimiento feminista<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active centrar2">
+            <a class="nav-link" href="Sobrenosotras.html">Sobre nosotras<span class="sr-only">(current)</span></a>
+          </li>
+
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn botonBuscar my-2 my-sm-0" type="submit">Ir</button>
+        </form>
+      </div>
+    </nav>
+    <script type="text/javascript">
+    var ahora;
+    var segundos;
+    ahora = new Date();
+    segundos = ahora.getSeconds();
+    if (segundos < 10) {
+      $('#fondo').css("background-image", "url(img/Fondo1.jpg)");
+    } else if (segundos<20){
+      $('#fondo').css("background-image", "url(img/Fondo2.jpg)");
+    }
+    else if (segundos<30){
+      $('#fondo').css("background-image", "url(img/Fondo3.jpg)");
+    }else if (segundos<40){
+      $('#fondo').css("background-image", "url(img/Fondo4.jpg)");
+    }else if (segundos<50){
+      $('#fondo').css("background-image", "url(img/Fondo5.jpg)");
+    }
+    else if (segundos<60){
+      $('#fondo').css("background-image", "url(img/Fondo7.jpg)");
+    }
+    </script>
+
+
+    <div class="card container hueco">
+      <div class="card-body">
+      <div class="row">
+        <div class="col-md-4 centrar1 ">
+          <h5 class="card-title">El segundo sexo, la Biblia feminista</h5>
+          <div posicion1>
+            <img src="img/seg.jpg" alt="Foto2">
+          </div>
+       </div>
+       <div class="col-md-8 centrar1 ">
+    <p class="card-text bajar">"El segundo sexo" no sólo ha nutrido a todo el feminismo que se ha hecho en la segunda mitad del siglo XX, sino que es el ensayo feminista más importante de esa centuria. Todo lo que se ha escrito después en el campo de la teoría feminista ha tenido que contar con esta obra, bien para continuarla en sus planteamientos y seguir desarrollándolos, bien para criticarlos oponiéndose a ellos. "El segundo sexo", que es el ensayo de una filósofa existencialista, se encuadra en el ámbito más amplio de un pensamiento ilustrado que toma de la ilustración precisamente sus aspectos positivos, emancipatorios; ante todo, una concepción igualitaria de los seres humanos, según la cual la diferencia de sexos no altera su radical igualdad de condición. Al mismo tiempo, es un ensayo filosófico que analiza el hecho de la condición femenina en las sociedades occidentales desde múltiples puntos de vista: el científico, el histórico, el psicológico, el sociológico, el ontológico y el cultural. Se trata de un estudio totalizador donde se investiga el porqué de la situación en que se encuentra esa mitad de la humanidad que somos las mujeres. </p>
+    <a href="http://users.dsic.upv.es/~pperis/El%20segundo%20sexo.pdf" target="blank" class="btn btn-primary">
+    Más información
+          </a>
+        </div>
+  </div>
+</div>
+</div>
+<div class="card container hueco">
+
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-4 centrar1 ">
+    <h5 class="card-title">Todos deberíamos ser feministas, de Chimamanda Ngozi Adichie</h5>
+    <div posicion1>
+      <img src="img/l1.jpg" class="peque" alt="Foto2">
+    </div>
+  </div>
+   <div class="col-md-8 centrar1 ">
+    <p class="card-text">Ser feminista no es solo cosa de mujeres. Chimamanda Ngozi Adichie lo demuestra en este elocuente y perspicaz texto, en el que nos brinda una definición singular de lo que significa ser feminista en el siglo XXI. Con un estilo claro y directo, y sin dejar de lado el humor, esta carismática autora explora el papel de la mujer actual y apunta ideas para hacer de este mundo un lugar más justo. «Hoy me gustaría pedir que empecemos a soñar con un plan para un mundo distinto. Un mundo más justo. Un mundo de hombres y mujeres más felices y más honestos consigo mismos. Y esta es la forma de empezar: tenemos que criar a nuestras hijas de otra forma. Y también a nuestros hijos.»
+La crítica ha dicho...: «Un ensayo conmovedor que debería llegar a todos los estudiantes y profesores para provocar un nuevo debate y concienciar a los más jóvenes y no tan jóvenes.» «Adichie [tiene] virtuosismo, empatía sin límites y una punzante agudeza social.» «He aquí una nueva escritora dotada con la habilidad de los antiguos contadores de historias.»
+
+ </p>
+
+    <a href="https://elpais.com/cultura/2015/09/10/babelia/1441900113_014976.html" target="blank" class="btn btn-primary">Más información</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="card container hueco">
+
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-4 centrar1 ">
+    <h5 class="card-title">Querida Ijeawele o cómo educar en el feminismo</h5>
+    <div posicion1>
+      <img src="img/l2.jpg" class="peque" alt="Foto2">
+    </div>
+    </div>
+    <div class="col-md-8 centrar1 ">
+    <p class="card-text bajar">“En lugar de enseñarle a tu hija a agradar, enséñale a ser sincera. Y amable. Y valiente. Anímala a decir lo que piensa, a decir lo que opina en realidad, a decir la verdad. […] Dile que, si algo la incomoda, se queje, grite”. El feminismo empieza en la educación. Con su voz cálida y directa, Chimamanda Ngozi Adichie dirige esta emotiva carta a una joven madre que acaba de dar a luz. En sus quince consejos, reivindica la formación de nuestros hijos en la igualdad y el respeto, el amor por los orígenes y la cultura. Una invitación a rechazar estereotipos, a abrazar el fracaso y a luchar por una sociedad más justa. Una bella misiva con reflexiones tan honestas como necesarias que conquistará por igual a madres, padres, hijos e hijas. La crítica dice: “Una pensadora y escritora extraordinariamente autoconsciente con la capacidad de criticar nuestra sociedad sin burla ni condescendencia ni polémicas impostadas” “Adichie es una narradora con un estilo claro y sugerente, sin tiempos muertos, de las que enganchan desde el principio de la frase.” “Sensible y emocionante.”
+</p>
+    <a href="https://www.librosyliteratura.es/querida-ijeawele-como-educar-en-el-feminismo-de-chimamanda-ngozi-adichie.html" target="blank" class="btn btn-primary">Más información</a>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

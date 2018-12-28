@@ -1,0 +1,105 @@
+
+.centrar {
+  padding-left: 150px !important;
+}
+.centrar2{
+  margin-right: 50px;
+}
+header{
+    background-color:hsla(9, 90%, 0%, 0.55);
+    padding-top: 90px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 25px;
+  font-family: "Georgia";
+  font-size:100px;
+  color: white;
+  text-shadow: 2px 2px black;
+
+}
+h2{
+  text-align: center;
+  font-family: "Serif";
+  color: white;
+
+
+
+}
+.texto{
+  text-align: center;
+  color: white;
+
+}
+
+nav{
+  background-color: white;
+  margin-bottom: 55px;
+}
+.carousel-item {
+  height: 550px
+}
+
+.botonBuscar {
+  background-color: beige;
+  border: 1px solid #dec8c8;
+}
+
+.posicion{
+  float:left;
+}
+.carousel-inner{
+  margin-bottom: 0px;
+}
+.tamaño{
+  height: 400px;
+  width: 340px;
+            margin: 0 auto;
+      padding-top: 10px;
+      padding: 10px;
+}
+
+.tamaño2{
+  height: 400px;
+  width: 300px;
+            margin: 0 auto;
+      padding-top: 10px;
+      padding: 10px;
+}
+.fila{
+    padding:100px;
+}
+.reloj{
+  color:white;
+  position:absolute;
+  top:20px;
+  right:25px;
+}
+.posicion1{
+  float:left!important;
+}
+
+.tamaño3{
+  width:50px!important;
+  height:100px!important;
+}
+p{
+  text-align: justify;
+}
+.bajar{
+  margin-top: 50px;
+}
+
+.peque{
+  width:90%;
+}
+.hueco{
+  margin-bottom: 75px;
+}
+
+.bajar2{
+  margin-top: 120px;
+}
